@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox">
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+            <ul class="menubox">
+                <li><a class="menu-item" href="#">ЦЕНЫ</a></li>
+                <li><a class="menu-item" href="#">СДЕЛАТЬ ЗАКАЗ</a></li>
+                <li><a class="menu-item" href="#">ДОСТАВКА</a></li>
+                <li><a class="menu-item" href="#">КОНТАКТЫ</a></li>
+                <li><a class="menu-item" href="#">ОПТОВАЯ ПРОДАЖА</a></li>
+                <li><span class="menu-item ">+7 (926) 863-75-25</span></li>
+                <li>
+                    <div class="menu-item street"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="location phone-block">
+            <div class="street"></div>
+            <div class="map">
+                <span>Карта ></span>
+            </div>
+        </div>
+        <div class="number phone-block">
+            <span>+7 (926) 863-75-25</span>
+        </div>
+        <div class="urls phone-block">
+            <div class="active">
+                <a href=""><span>ЦЕНЫ</span></a>
+            </div>
+            <a href=""><span class="passive">СДЕЛАТЬ ЗАКАЗ</span></a>
+            <a href=""><span class="passive">ДОСТАВКА</span> </a>
+            <a href=""><span class="passive">КОНТАКТЫ</span> </a>
+            <a href=""><span class="passive">ОПТОВАЯ ПРОДАЖА</span> </a>
+        </div>
+    </header>
+    <main>
+        <div class="face-block">
+            <div class="order-form phone-block">
+                <div class="iner-border">
+                    <span class="fast-order">
+                        Быстрая заявка
+                    </span>
+                    <div class="input-container">
+                        <label for="phone-input">Номер телефона:</label>
+                        <input type="tel" id="phone-input" placeholder=" 8 (XXX) XXX-XX-XX"
+                            pattern="8 \(\d{3}\) \d{3}-\d{2}-\d{2}">
+                        <button class="call-me-button">Перезвоните мне!</button>
+                    </div>
+                </div>
+            </div>
+            <img src="/img/Prints.png" class="phone-block" width="773" alt="">
+        </div>
+        <button class="order-button">Заказать <br> сейчас!</button>
+        <div class="order-form second-form">
+            <div class="iner-border">
+                <span class="fast-order">
+                    Быстрая заявка
+                </span>
+                <div class="input-container">
+                    <label for="phone-input-2">Номер телефона:</label>
+                    <input type="tel" id="phone-input-2" placeholder=" 8 (XXX) XXX-XX-XX"
+                        pattern="8 \(\d{3}\) \d{3}-\d{2}-\d{2}">
+                    <button class="call-me-button">Перезвоните мне!</button>
+                </div>
+            </div>
+        </div>
+        <div class="count-block">
+            <span class="count">ЦЕНЫ</span>
+            <div class="prise-block">
+                <div class="mid-cross-line"></div>
+                <img src="/img/Shtamp.png" alt="">
+                <span class="card-heading">ПЕЧАТИ</span>
+                <div class="day-block">
+                    <img src="/img/clock.png" alt="">
+                    <span> 1 ДЕНЬ</span>
+                </div>
+                <div class="time-block">
+                    <img src="/img/clock.png" alt="">
+                    <span> 1-2 ЧАСА</span>
+                </div>
+                <div class="first-information-block">
+                    <div class="first-text-line">
+                        <span class="operation-name">НОВАЯ ПЕЧАТЬ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">290₽</span>
+                    </div>
+                    <div class="second-text-line">
+                        <span class="operation-name">ПЕЧАТЬ ПО ОТТИСКУ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">390₽</span>
+                    </div>
+                    <div class="third-text-line">
+                        <span class="operation-name">ФАКСИМИЛЕ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">от 590₽</span>
+                    </div>
+                </div>
+                <div class="second-information-block">
+                    <div class="first-text-line">
+                        <span class="operation-name">НОВАЯ ПЕЧАТЬ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">500₽</span>
+                    </div>
+                    <div class="second-text-line">
+                        <span class="operation-name">ПЕЧАТЬ ПО ОТТИСКУ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">от 790₽</span>
+                    </div>
+                    <div class="third-text-line">
+                        <span class="operation-name">ФАКСИМИЛЕ</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">от 950₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="second-pb">
+                <div class="mid-cross-line"></div>
+                <img src="/img/Shtampp.png" alt="">
+                <span class="card-heading">ШТАМПЫ</span>
+                <div class="day-block">
+                    <img src="/img/clock.png" alt="">
+                    <span> 1 ДЕНЬ</span>
+                </div>
+                <div class="time-block">
+                    <img src="/img/clock.png" alt="">
+                    <span> 1-2 ЧАСА</span>
+                </div>
+                <div class="first-information-block">
+                    <div class="first-text-line">
+                        <span class="operation-name">20х40 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">290₽</span>
+                    </div>
+                    <div class="second-text-line">
+                        <span class="operation-name">30х50 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">400₽</span>
+                    </div>
+                    <div class="third-text-line">
+                        <span class="operation-name">60х100 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">600₽</span>
+                    </div>
+                </div>
+                <div class="second-information-block">
+                    <div class="first-text-line">
+                        <span class="operation-name">20х40 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">500₽</span>
+                    </div>
+                    <div class="second-text-line">
+                        <span class="operation-name">30х50 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">790₽</span>
+                    </div>
+                    <div class="third-text-line">
+                        <span class="operation-name">60х100 мм</span>
+                        <div class="cost-line"></div>
+                        <span class="money-count">1200₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="heading-best-block burger-menu">ПОПУЛЯРНЫЕ ТОВАРЫ</span>
+        <div class="best-objects"></div>
+        <div class="last-count phone-block">
+            <span class="your-order">Ваш заказ</span>
+            <span class>Новая печать</span>
+            <span>Оснастка: ручная</span>
+            <div class="count-select-block">
+                <span>Кол-во:</span>
+                <div class="add-button">-</div>
+                <span>1</span>
+                <div class="add-button">+</div>
+            </div>
+            <span class="result-text-block">Итого</span>
+            <span class="money-result-block">390₽</span>
+        </div>
+        <div class="order-block">
+            <span class="count">ОНЛАЙН-ЗАКАЗ</span>
+            <div class="print-type-block">
+                <div class="space"></div>
+                <span class="heading">Выберите вид печати</span>
+
+                <div class="slider burger-menu">
+                    <div class="slide active">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-1.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Печать</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-2.png" width="170" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Штамп</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-3.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Факсимиле</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/img/left.png" alt="Prev" class="prev">
+                    <img src="/img/right.png" alt="Next" class="next">
+                </div>
+
+                <div class="print-type phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-1.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Печать</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-2.png" width="170" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Штамп</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-3.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Факсимиле</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-form-block">
+                <div class="space"></div>
+                <span class="heading">Выберите тип</span>
+
+                <div class="slider burger-menu">
+                    <div class="slide-2 active-2">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-4.png" width="150" alt="">
+                            <div class="question-mark">
+                                <span>?</span>
+                            </div>
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Новая печать</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-2">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-5.png" alt="">
+                            <div class="question-mark">
+                                <span>?</span>
+                            </div>
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>По оттиску</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/img/left.png" alt="Prev" class="prev-2">
+                    <img src="/img/right.png" alt="Next" class="next-2">
+                </div>
+
+                <div class="print-type phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-4.png" width="150" alt="">
+                        <div class="question-mark">
+                            <span>?</span>
+                        </div>
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Новая печать</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-5.png" alt="">
+                        <div class="question-mark">
+                            <span>?</span>
+                        </div>
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>По оттиску</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-2"></div>
+                <span class="heading heading-2">Срок изготавления</span>
+                <div class="select-input-block">
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>На завтра</span>
+                    </div>
+                    <div class="space"></div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>Срочно (1-2 часа)</span>
+                    </div>
+                </div>
+                <div class="space-3"></div>
+                <span class="heading heading-3">Количество</span>
+                <div class="count-select-block">
+                    <div class="add-button-2">-</div>
+                    <span>1</span>
+                    <div class="add-button-2">+</div>
+                </div>
+                <div class="space-3"></div>
+                <span class="heading">Тип организации</span>
+                <div class="select-input-block-2">
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>ИП</span>
+                    </div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>ООО</span>
+                    </div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>ЗАО</span>
+                    </div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>ОАО</span>
+                    </div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>Врачебная</span>
+                    </div>
+                    <div class="input other">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>Другое</span>
+                    </div>
+                </div>
+                <div class="space-4"></div>
+                <div class="select-input-block">
+                    <div class="organization-input-container">
+                        <label for="organization">Наименование организации</label>
+                        <input type="text" id="organization"
+                            placeholder="    Например, ИП Константин Константинопольский">
+                    </div>
+                    <div class="city-input-container">
+                        <label for="city">Город</label>
+                        <input type="text" id="city" placeholder="  Москва">
+                    </div>
+                </div>
+                <div class="space-5"></div>
+                <div class="select-input-block">
+                    <div class="ogrn-input-container">
+                        <label for="ogrn">ОГРН</label>
+                        <input type="text" id="ogrn" placeholder="    123456789876543">
+                    </div>
+                    <div class="inn-input-container">
+                        <label for="inn">ИНН</label>
+                        <input type="text" id="inn" placeholder="    1234567898765">
+                    </div>
+                </div>
+                <div class="space-2 phone-space-2"></div>
+                <span class="heading heading-4">Выберите макет</span>
+
+                <div class="slider burger-menu">
+                    <div class="slide-3 active-3">
+                        <div class="selected-print-type-block ">
+                            <img src="/img/print-6.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0001</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-7.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0002</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-8.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0003</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-9.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0004</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-10.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0005</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-11.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0006</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-12.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0007</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-13.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0008</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="slide-3">
+                        <div class="selected-print-type-block">
+                            <img src="/img/print-14.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>ИП 0009</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/img/left.png" alt="Prev" class="prev-3">
+                    <img src="/img/right.png" alt="Next" class="next-3">
+                </div>
+
+                <div class="print-type-2 phone-block">
+                    <div class="selected-print-type-block ">
+                        <img src="/img/print-6.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0001</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-7.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0002</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-8.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0003</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="print-type-3 phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-9.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0004</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-10.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0005</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-11.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0006</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="print-type-4 phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-12.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0007</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-13.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0008</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/print-14.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>ИП 0009</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-6"></div>
+                <span class="heading heading-5">Выберите оснастку</span>
+
+                <div class="slider burger-menu">
+                    <div class="slide-4 active-2">
+                        <div class="selected-print-type-block">
+                            <img src="/img/handle.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Ручная</span>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="slide-4">
+                        <div class="selected-print-type-block">
+                            <img src="/img/handle.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Ручная</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-4">
+                        <div class="selected-print-type-block">
+                            <img src="/img/handle.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Ручная</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-4">
+                        <div class="selected-print-type-block">
+                            <img src="/img/handle.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Ручная</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-4">
+                        <div class="selected-print-type-block">
+                            <img src="/img/handle.png" alt="">
+                            <div class="print-input">
+                                <div class="check-box"></div>
+                                <div class="tab"></div>
+                                <span>Ручная</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/img/left.png" alt="Prev" class="prev-4">
+                    <img src="/img/right.png" alt="Next" class="next-4">
+                </div>
+
+                <div class="print-type-2 handle-size-img phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/handle.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Ручная</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/handle.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Ручная</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/handle.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Ручная</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="print-type-3 handle-size-img-2 phone-block">
+                    <div class="selected-print-type-block">
+                        <img src="/img/handle.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Ручная</span>
+                        </div>
+                    </div>
+                    <div class="selected-print-type-block">
+                        <img src="/img/handle.png" alt="">
+                        <div class="print-input">
+                            <div class="check-box"></div>
+                            <div class="tab"></div>
+                            <span>Ручная</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-7"></div>
+                <div class="last-count-second">
+                    <span class="your-order">Ваш заказ</span>
+                    <span class>Новая печать</span>
+                    <span>Оснастка: ручная</span>
+                    <span class="result-text-block">Итого</span>
+                    <span class="money-result-block">390₽</span>
+                </div>
+                <div class="phone-space-7"></div>
+                <span class="heading heading-6">Способ получения</span>
+                <div class="select-input-block-3">
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>Самовывоз</span>
+                    </div>
+                    <div class="input">
+                        <div class="check-box"></div>
+                        <div class="tab"></div>
+                        <span>Доставка</span>
+                    </div>
+                </div>
+                <div class="space-8"></div>
+                <div class="place-input-container">
+                    <label for="place">Адрес доставки</label>
+                    <input type="text" id="place" placeholder="    Например, Панкратьевский переулок 41к1">
+                </div>
+                <div class="space-9"></div>
+                <div class="comment-input-container">
+                    <label for="comment">Комментарий</label>
+                    <textarea class="text-field" id="comment"
+                        placeholder="Если у вас есть уточнение к заказу, либо дополнительный заказ, напишите его сюда."></textarea>
+                </div>
+                <div class="order-line-block">
+                    <button class="contact-button">Оформить заказ</button>
+                    <span>Оплата производится при получении заказа.</span>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-url">
+            <a href=""><span class="passive">ЦЕНЫ</span></a>
+            <a href=""><span class="passive">СДЕЛАТЬ ЗАКАЗ</span></a>
+            <a href=""><span class="passive">ДОСТАВКА</span> </a>
+            <a href=""><span class="passive">КОНТАКТЫ</span> </a>
+            <a href=""><span class="passive">ОПТОВАЯ ПРОДАЖА</span> </a>
+        </div>
+    </footer>
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        const slides_2 = document.querySelectorAll('.slide-2');
+        const prevBtn_2 = document.querySelector('.prev-2');
+        const nextBtn_2 = document.querySelector('.next-2');
+        const slides_3 = document.querySelectorAll('.slide-3');
+        const prevBtn_3 = document.querySelector('.prev-3');
+        const nextBtn_3 = document.querySelector('.next-3');
+        const slides_4 = document.querySelectorAll('.slide-4');
+        const prevBtn_4 = document.querySelector('.prev-4');
+        const nextBtn_4 = document.querySelector('.next-4');
+
+        let currentSlide = 0;
+        let currentSlide_2 = 0;
+        let currentSlide_3 = 0;
+        let currentSlide_4 = 0;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        function showSlide_2(n) {
+            slides_2[currentSlide_2].classList.remove('active-2');
+            currentSlide_2 = (n + slides_2.length) % slides_2.length;
+            slides_2[currentSlide_2].classList.add('active-2');
+        }
+
+        function showSlide_3(n) {
+            slides_3[currentSlide_3].classList.remove('active-3');
+            currentSlide_3 = (n + slides_3.length) % slides_3.length;
+            slides_3[currentSlide_3].classList.add('active-3');
+        }
+
+        function showSlide_4(n) {
+            slides_4[currentSlide_4].classList.remove('active-4');
+            currentSlide_4 = (n + slides_4.length) % slides_4.length;
+            slides_4[currentSlide_4].classList.add('active-4');
+        }
+
+        prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
+        prevBtn_2.addEventListener('click', () => showSlide_2(currentSlide_2 - 1));
+        nextBtn_2.addEventListener('click', () => showSlide_2(currentSlide_2 + 1));
+        prevBtn_3.addEventListener('click', () => showSlide_3(currentSlide_3 - 1));
+        nextBtn_3.addEventListener('click', () => showSlide_3(currentSlide_3 + 1));
+        prevBtn_4.addEventListener('click', () => showSlide_4(currentSlide_4 - 1));
+        nextBtn_4.addEventListener('click', () => showSlide_4(currentSlide_4 + 1));
+    </script>
+
+</body>
+
+</html>
