@@ -1,2 +1,2 @@
 # Landin
-https://8merka.github.io/Landing/Development
+https://8merka.github.io/Landing/Development/index.html
